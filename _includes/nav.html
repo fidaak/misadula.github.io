@@ -27,8 +27,8 @@
                                 {% unless block.menu_exclude %}
                                     <li>
                                         <a class="page-scroll" href="#{{ block.name }}">
-                                            {% if block.menu_txt %}
-                                                {{ menu_txt }}
+                                            {% if block.menu_text %}
+                                                {{ block.menu_text }}
                                             {% else %}
                                                 {{ block.name }}
                                             {% endif %}
