@@ -1,12 +1,12 @@
 # Site settings
 title: Míša Novotná - Dula
-tagline: Your Favorite Source of Free Bootstrap Themes
-author: 
+tagline: Vítejte u služeb asistence v těhotenství
+author: Michaela Novotná
 first_button_text: 'Kontaktuj mě'
-first_button_url: '#about'
+first_button_url: '#contact'
 header_img: /img/header.jpg
-home_menu_text: Míša Dula
-description: Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!
+home_menu_text: Dula Míša Novotná
+description: Chápeme, že těhotenství a období po porodu mohou být časem plným smíšených emocí a výzev. Proto jsme zde, abychom vám nabídli podporu, vedení a pomocnou ruku na této krásné, přesto náročné cestě.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
@@ -15,11 +15,11 @@ primary: '#F05F40'
 dark: '#222'
 
 # Contact details
-email: 
+email: dulamisa@duly.cz
 telephone_number: 773568233
 whatsapp_number: 
 twitter_username: 
-github_username: volny
+github_username:
 instagram_username: 
 facebook_username: misadula
 linkedin_username: 

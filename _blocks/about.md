@@ -1,11 +1,11 @@
 ---
 name: about
 type: primary
-title: We've got what you need!
-button_text: Get Started!
-button_url: '#'
-menu_text:  # If left blank this defaults to the id
+title: Vaše společnice a terapeutka během a po těhotenství
+button_text: Kontaktujte mně!
+button_url: '#contact'
+menu_text:  O mně
 menu_exclude: false
 width: 8 # With of the main block
 ---
-Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+Jako certifikovaná asistentka a terapeutka v těhotenství jsem zde, abych byla vaší společnicí, důvěrnicí a zastánkyní. S lety zkušeností a vášní pro péči o matky jsem zde, abych zajistila, že vaše cesta mateřstvím bude co nejradostnější a bez stresu.
