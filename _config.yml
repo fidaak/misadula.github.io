@@ -4,7 +4,7 @@ tagline: Vítejte u služeb asistence v těhotenství
 author: Michaela Novotná
 first_button_text: 'Kontaktuj mě'
 first_button_url: '#contact'
-header_img: /img/test4.jpg
+header_img: img/test4.jpg
 home_menu_text: Dula Míša Novotná
 description: Chápeme, že těhotenství a období po porodu mohou být časem plným smíšených emocí a výzev. Proto jsme zde, abychom vám nabídli podporu, vedení a pomocnou ruku na této krásné, přesto náročné cestě.
 baseurl: "/misadula.github.io" # the subpath of your site, e.g. /blog/
