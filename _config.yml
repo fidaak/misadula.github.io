@@ -8,7 +8,7 @@ header_img: /img/test4.jpg
 home_menu_text: Dula Míša Novotná
 description: Chápeme, že těhotenství a období po porodu mohou být časem plným smíšených emocí a výzev. Proto jsme zde, abychom vám nabídli podporu, vedení a pomocnou ruku na této krásné, přesto náročné cestě.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://fidaak.github.io/misadula.github.io/" # the base hostname & protocol for your site
 
 # Theme customization
 primary: '#c09cb3'
