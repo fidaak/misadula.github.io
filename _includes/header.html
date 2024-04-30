@@ -2,6 +2,9 @@
   {% capture full_background_image_url %}{{ site.baseurl }}{{ include.header_img }}{% endcapture %}
   <!-- Debug output for full background image URL -->
   <header style="background-image: url('{{ full_background_image_url }}');">
+{% else if site.header_img %}
+    {% capture full_background_image_url %}{{ site.baseurl }}{{ site.header_img }}{% endcapture %}
+  <header style="background-image: url('{{ full_background_image_url }}');">
 {% else %}
   <header>
 {% endif %}
