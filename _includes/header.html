@@ -12,15 +12,4 @@
         </div>
     </div>
   </header>
-{% else %}
-  <header>
-    <div class="header-content">
-        <div class="header-content-inner">
-            <h1>{{ site.tagline }}</h1>
-            <hr>
-            {{ include.body }}
-            <a href="{{ site.baseurl }}{{ site.first_button_url }}" class="btn btn-primary btn-xl page-scroll">{{ site.first_button_text }}</a>
-        </div>
-    </div>
-  </header>
 {% endif %}
