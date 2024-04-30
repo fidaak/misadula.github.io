@@ -1,15 +1,16 @@
 {% if include.header_img %}
   {% capture full_background_image_url %}{{ site.baseurl }}{{ include.header_img }}{% endcapture %}
+  <!-- Debug output for full background image URL -->
   <header style="background-image: url('{{ full_background_image_url }}');">
+{% else %}
+  <header>
+{% endif %}
     <div class="header-content">
         <div class="header-content-inner">
-            <!-- Debug output for full background image URL -->
-            <h1>Full Background Image URL: {{ full_background_image_url }}</h1>
             <h1>{{ site.tagline }}</h1>
             <hr>
             {{ include.body }}
             <a href="{{ site.baseurl }}{{ site.first_button_url }}" class="btn btn-primary btn-xl page-scroll">{{ site.first_button_text }}</a>
         </div>
     </div>
-  </header>
-{% endif %}
+</header>
