@@ -1,41 +1,56 @@
-# Site settings
-title: Míša Novotná - Dula
-tagline: Vítejte u služeb asistence v těhotenství
-author: Michaela Novotná
-first_button_text: 'Kontaktuj mě'
-first_button_url: '#contact'
-header_img: /img/test4.jpg
-home_menu_text: Dula Míša Novotná
-description: Chápeme, že těhotenství a období po porodu mohou být časem plným smíšených emocí a výzev. Proto jsme zde, abychom vám nabídli podporu, vedení a pomocnou ruku na této krásné, přesto náročné cestě.
-baseurl: "/misadula.github.io" # the subpath of your site, e.g. /blog/
-url: "https://fidaak.github.io" # the base hostname & protocol for your site
+#-------------------------------
+# General Site Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://simpler-jekyll.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Theme customization
-primary: '#c09cb3'
-dark: '#222'
 
-# Contact details
-email: dulamisa@duly.cz
-telephone_number: 773568233
-whatsapp_number: 
-twitter_username: 
-github_username:
-instagram_username: 
-facebook_username: misadula
-linkedin_username: 
-
-# Data collections
-collections:
-  blocks:
-    output: false
-  gallery:
-    output: false
-
-# Build settings
+#-------------------------------
+# Build Settings
 markdown: kramdown
+permalink: /:title
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
 
-exclude:
-  - serve
-  - README.md
-  - LICENCE
+paginate: 6
+paginate_path: "/page/:num"
 
+
+#-------------------------------
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  projects:
+    output: true
+    permalink: /project/:slug
+
+# Pages Path
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+sass:
+  sass_dir: _sass
+  style: compressed
