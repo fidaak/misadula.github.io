@@ -18,7 +18,7 @@ menu_settings:
   menu_items:
     - title: "Domů"
       url: "/"
-    - title: "O mě"
+    - title: "O mně"
       url: "/about/"
     - title: "Blog"
       url: "/blog/"
@@ -48,7 +48,7 @@ hero:
   hero_description: Chápu, že těhotenství a období po porodu mohou být časem plným smíšených emocí a výzev. Proto jsem zde, abych Vám nabídla podporu, vedení a pomocnou ruku na této krásné, přesto náročné cestě.
   hero_image: "/images/header.jpg"
   hero_button_contact: Kontakt
-  hero_button_about: O mě
+  hero_button_about: O mně
 
 
 #-------------------------------
