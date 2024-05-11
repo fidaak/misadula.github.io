@@ -29,7 +29,7 @@
                   <div class="client-meta">
                     {% if testimonial_item.image %}
                     <a href="{{testimonial_item.link}}" target="_blank" rel="noopener" class="image-container">
-                      <img class="client-avatar" src="{{ testimonial_item.image | relative_url }}" alt="{{ testimonial_item.name }}" loading="lazy">
+                      <img class="client-avatar" src="{{ site.baseurl }}{{ testimonial_item.image | relative_url }}" alt="{{ testimonial_item.name }}" loading="lazy">
                     </a>
                     {% endif %}
                     <div class="client-info">
